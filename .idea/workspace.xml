@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a305f6cb-3729-47bf-99d6-c9801fbae37d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MarktinTHB"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MarktinTHB/cnc-neebot.git",
+    "accountId": "14cc98f6-43e4-4933-b1a2-36df14f1f7c5"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0001395349711206" />
+      <entry key="MS500" value="1.2842113585344344" />
+      <entry key="S2" value="3.764051615897526" />
+      <entry key="S5" value="7.571898327892495" />
+      <entry key="S10" value="12.436948394462933" />
+      <entry key="S30" value="31.897182175256344" />
+      <entry key="S60" value="59.76731083840687" />
+      <entry key="M2" value="100.93204153879525" />
+      <entry key="M5" value="158.52564236625668" />
+      <entry key="M10" value="200.23324934046983" />
+      <entry key="M15" value="229.15189032574568" />
+      <entry key="M30" value="292.7101580911528" />
+      <entry key="H1" value="361.85506671327005" />
+      <entry key="H2" value="417.0216709260947" />
+      <entry key="H4" value="452.5593696278134" />
+      <entry key="D1" value="487.3850360472006" />
+      <entry key="W1" value="493.8979859377654" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.9548211515404466E-133" />
+      <entry key="S10" value="4.421335942382638E-67" />
+      <entry key="S30" value="7.618178978500972E-23" />
+      <entry key="S60" value="8.72821801887469E-12" />
+      <entry key="M2" value="2.95435577053183E-6" />
+      <entry key="M5" value="0.006140236757627019" />
+      <entry key="M10" value="0.07835966282231607" />
+      <entry key="M15" value="0.18311687675151436" />
+      <entry key="M30" value="0.4279215778054587" />
+      <entry key="H1" value="0.6541571506950452" />
+      <entry key="H2" value="0.8087998211517119" />
+      <entry key="H4" value="0.8993329868028341" />
+      <entry key="D1" value="0.9824717854991029" />
+      <entry key="W1" value="0.9974769521490507" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9203176859354159" />
+      <entry key="MS500" value="1.2629241106513878" />
+      <entry key="S2" value="3.746607278645257" />
+      <entry key="S5" value="7.556873534924126" />
+      <entry key="S10" value="12.42441873412099" />
+      <entry key="S30" value="31.88660387333067" />
+      <entry key="S60" value="59.75720575495979" />
+      <entry key="M2" value="100.92286795341518" />
+      <entry key="M5" value="158.524808778692" />
+      <entry key="M10" value="200.3053629942549" />
+      <entry key="M15" value="229.32890037949088" />
+      <entry key="M30" value="293.132619055532" />
+      <entry key="H1" value="362.50516112512247" />
+      <entry key="H2" value="417.82791042140326" />
+      <entry key="H4" value="453.4572527367138" />
+      <entry key="D1" value="488.3672385369993" />
+      <entry key="W1" value="494.895423681363" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EjJsSzHbkEXqTjHBozl5EM7gMk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Mtabe/PycharmProjects/cnc-neebot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a305f6cb-3729-47bf-99d6-c9801fbae37d" name="Changes" comment="" />
+      <created>1780686251227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780686251227</updated>
+      <workItem from="1780686252270" duration="12000" />
+      <workItem from="1780686298502" duration="183000" />
+      <workItem from="1780686523709" duration="63000" />
+      <workItem from="1780715537691" duration="137000" />
+      <workItem from="1780715703508" duration="6698000" />
+      <workItem from="1780936716349" duration="1543000" />
+      <workItem from="1781326062391" duration="363000" />
+      <workItem from="1781504596468" duration="882000" />
+      <workItem from="1781535786349" duration="3568000" />
+      <workItem from="1781541072055" duration="849000" />
+      <workItem from="1781574171010" duration="1371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1781538696320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
