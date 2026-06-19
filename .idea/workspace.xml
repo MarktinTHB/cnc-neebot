@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a305f6cb-3729-47bf-99d6-c9801fbae37d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cogs/adminCommands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cogs/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cogs/teamSelector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cogs/userPermissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cogs/userVerification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -22,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -37,61 +43,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0001395349711206" />
-      <entry key="MS500" value="1.2842113585344344" />
-      <entry key="S2" value="3.764051615897526" />
-      <entry key="S5" value="7.571898327892495" />
-      <entry key="S10" value="12.436948394462933" />
-      <entry key="S30" value="31.897182175256344" />
-      <entry key="S60" value="59.76731083840687" />
-      <entry key="M2" value="100.93204153879525" />
-      <entry key="M5" value="158.52564236625668" />
-      <entry key="M10" value="200.23324934046983" />
-      <entry key="M15" value="229.15189032574568" />
-      <entry key="M30" value="292.7101580911528" />
-      <entry key="H1" value="361.85506671327005" />
-      <entry key="H2" value="417.0216709260947" />
-      <entry key="H4" value="452.5593696278134" />
-      <entry key="D1" value="487.3850360472006" />
-      <entry key="W1" value="493.8979859377654" />
+      <entry key="MS100" value="1.0000000755048188" />
+      <entry key="MS500" value="1.0478996407374321" />
+      <entry key="S2" value="2.011554269561671" />
+      <entry key="S5" value="3.2152639865062835" />
+      <entry key="S10" value="4.035235076310075" />
+      <entry key="S30" value="5.968938842407054" />
+      <entry key="S60" value="8.228200300820095" />
+      <entry key="M2" value="11.908599298198173" />
+      <entry key="M5" value="25.788736256947125" />
+      <entry key="M10" value="60.152785007702896" />
+      <entry key="M15" value="101.09617049866081" />
+      <entry key="M30" value="212.11001412470014" />
+      <entry key="H1" value="349.97655478631776" />
+      <entry key="H2" value="471.3655814276512" />
+      <entry key="H4" value="554.8778926120712" />
+      <entry key="D1" value="640.7104742080193" />
+      <entry key="W1" value="657.1969688844821" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.9548211515404466E-133" />
-      <entry key="S10" value="4.421335942382638E-67" />
-      <entry key="S30" value="7.618178978500972E-23" />
-      <entry key="S60" value="8.72821801887469E-12" />
-      <entry key="M2" value="2.95435577053183E-6" />
-      <entry key="M5" value="0.006140236757627019" />
-      <entry key="M10" value="0.07835966282231607" />
-      <entry key="M15" value="0.18311687675151436" />
-      <entry key="M30" value="0.4279215778054587" />
-      <entry key="H1" value="0.6541571506950452" />
-      <entry key="H2" value="0.8087998211517119" />
-      <entry key="H4" value="0.8993329868028341" />
-      <entry key="D1" value="0.9824717854991029" />
-      <entry key="W1" value="0.9974769521490507" />
+      <entry key="MS100" value="3.455092273437544E-129" />
+      <entry key="MS500" value="2.0309158550099026E-26" />
+      <entry key="S2" value="3.7750523847163777E-7" />
+      <entry key="S5" value="0.0026963060923381878" />
+      <entry key="S10" value="0.0519259674521037" />
+      <entry key="S30" value="0.37339687131634103" />
+      <entry key="S60" value="0.6287691980827632" />
+      <entry key="M2" value="0.9155931193870084" />
+      <entry key="M5" value="1.3537502615835637" />
+      <entry key="M10" value="1.6249383555017467" />
+      <entry key="M15" value="1.7577944051517438" />
+      <entry key="M30" value="2.0169590212276516" />
+      <entry key="H1" value="2.3253218450330286" />
+      <entry key="H2" value="2.5940683167177845" />
+      <entry key="H4" value="2.775762832923404" />
+      <entry key="D1" value="2.959240026822677" />
+      <entry key="W1" value="2.994087889815417" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9203176859354159" />
-      <entry key="MS500" value="1.2629241106513878" />
-      <entry key="S2" value="3.746607278645257" />
-      <entry key="S5" value="7.556873534924126" />
-      <entry key="S10" value="12.42441873412099" />
-      <entry key="S30" value="31.88660387333067" />
-      <entry key="S60" value="59.75720575495979" />
-      <entry key="M2" value="100.92286795341518" />
-      <entry key="M5" value="158.524808778692" />
-      <entry key="M10" value="200.3053629942549" />
-      <entry key="M15" value="229.32890037949088" />
-      <entry key="M30" value="293.132619055532" />
-      <entry key="H1" value="362.50516112512247" />
-      <entry key="H2" value="417.82791042140326" />
-      <entry key="H4" value="453.4572527367138" />
-      <entry key="D1" value="488.3672385369993" />
-      <entry key="W1" value="494.895423681363" />
+      <entry key="MS100" value="0.852634947819976" />
+      <entry key="MS500" value="1.0140608355176306" />
+      <entry key="S2" value="1.9930878489607795" />
+      <entry key="S5" value="3.2046039069838272" />
+      <entry key="S10" value="4.060579352760838" />
+      <entry key="S30" value="6.283458128536687" />
+      <entry key="S60" value="8.806173238497099" />
+      <entry key="M2" value="12.788846092698702" />
+      <entry key="M5" value="27.122634274331375" />
+      <entry key="M10" value="61.76437973801956" />
+      <entry key="M15" value="102.84299999560574" />
+      <entry key="M30" value="214.11871475685473" />
+      <entry key="H1" value="352.29585362173987" />
+      <entry key="H2" value="473.95574417101665" />
+      <entry key="H4" value="557.6513837835215" />
+      <entry key="D1" value="643.6692797956856" />
+      <entry key="W1" value="660.1909931626943" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -100,6 +106,7 @@
 }</component>
   <component name="ProjectId" id="3EjJsSzHbkEXqTjHBozl5EM7gMk" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -133,6 +140,41 @@
       <recent name="C:\Users\chewie\PycharmProjects\cnc-neebot" />
       <recent name="C:\Users\chewie\PycharmProjects\cnc-neebot\.venv" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mtabe\PycharmProjects\cnc-neebot\cogs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cnc-neebot" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -159,6 +201,9 @@
       <workItem from="1781535786349" duration="3568000" />
       <workItem from="1781541072055" duration="849000" />
       <workItem from="1781574171010" duration="1371000" />
+      <workItem from="1781868954542" duration="657000" />
+      <workItem from="1781869674725" duration="1172000" />
+      <workItem from="1781870880724" duration="2919000" />
     </task>
     <servers />
   </component>
@@ -166,6 +211,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1781859836892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1781873555161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
