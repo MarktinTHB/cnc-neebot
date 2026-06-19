@@ -37,61 +37,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000117912149527" />
-      <entry key="S2" value="1.104205259428295" />
-      <entry key="S5" value="1.404721108273704" />
-      <entry key="S10" value="1.6361769472982375" />
-      <entry key="S30" value="1.8600549883725468" />
-      <entry key="S60" value="1.9288797972052143" />
-      <entry key="M2" value="2.1670378235879513" />
-      <entry key="M5" value="11.009319476348344" />
-      <entry key="M10" value="48.083472134989115" />
-      <entry key="M15" value="92.93334518887472" />
-      <entry key="M30" value="210.83464596953814" />
-      <entry key="H1" value="353.825833170109" />
-      <entry key="H2" value="478.4399644593553" />
-      <entry key="H4" value="563.8069645450477" />
-      <entry key="D1" value="651.3478843758854" />
-      <entry key="W1" value="668.1447057500553" />
+      <entry key="MS100" value="1.0001395349711206" />
+      <entry key="MS500" value="1.2842113585344344" />
+      <entry key="S2" value="3.764051615897526" />
+      <entry key="S5" value="7.571898327892495" />
+      <entry key="S10" value="12.436948394462933" />
+      <entry key="S30" value="31.897182175256344" />
+      <entry key="S60" value="59.76731083840687" />
+      <entry key="M2" value="100.93204153879525" />
+      <entry key="M5" value="158.52564236625668" />
+      <entry key="M10" value="200.23324934046983" />
+      <entry key="M15" value="229.15189032574568" />
+      <entry key="M30" value="292.7101580911528" />
+      <entry key="H1" value="361.85506671327005" />
+      <entry key="H2" value="417.0216709260947" />
+      <entry key="H4" value="452.5593696278134" />
+      <entry key="D1" value="487.3850360472006" />
+      <entry key="W1" value="493.8979859377654" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.0986699424485871E-148" />
-      <entry key="S10" value="1.0481745763223727E-74" />
-      <entry key="S30" value="2.1884898691168253E-25" />
-      <entry key="S60" value="4.67812982838719E-13" />
-      <entry key="M2" value="6.839694655922533E-7" />
-      <entry key="M5" value="0.003435181211833128" />
-      <entry key="M10" value="0.06238804608003075" />
-      <entry key="M15" value="0.17547319986299556" />
-      <entry key="M30" value="0.5456670320948469" />
-      <entry key="H1" value="1.0198998563140367" />
-      <entry key="H2" value="1.4193003526479335" />
-      <entry key="H4" value="1.6821501518178492" />
-      <entry key="D1" value="1.9427042555904213" />
-      <entry key="W1" value="1.9917018180643806" />
+      <entry key="S5" value="1.9548211515404466E-133" />
+      <entry key="S10" value="4.421335942382638E-67" />
+      <entry key="S30" value="7.618178978500972E-23" />
+      <entry key="S60" value="8.72821801887469E-12" />
+      <entry key="M2" value="2.95435577053183E-6" />
+      <entry key="M5" value="0.006140236757627019" />
+      <entry key="M10" value="0.07835966282231607" />
+      <entry key="M15" value="0.18311687675151436" />
+      <entry key="M30" value="0.4279215778054587" />
+      <entry key="H1" value="0.6541571506950452" />
+      <entry key="H2" value="0.8087998211517119" />
+      <entry key="H4" value="0.8993329868028341" />
+      <entry key="D1" value="0.9824717854991029" />
+      <entry key="W1" value="0.9974769521490507" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.2679433656340733" />
-      <entry key="MS500" value="0.7684865518968353" />
-      <entry key="S2" value="1.0199217052784302" />
-      <entry key="S5" value="1.344672402946799" />
-      <entry key="S10" value="1.5957417543024761" />
-      <entry key="S30" value="1.843167985969744" />
-      <entry key="S60" value="1.9199190105255037" />
-      <entry key="M2" value="2.1623593578029787" />
-      <entry key="M5" value="11.00941406368435" />
-      <entry key="M10" value="48.1412613061196" />
-      <entry key="M15" value="93.10348962160874" />
-      <entry key="M30" value="211.37452463707845" />
-      <entry key="H1" value="354.8407639658144" />
-      <entry key="H2" value="479.85582099482724" />
-      <entry key="H4" value="565.4870541956569" />
-      <entry key="D1" value="653.29018629404" />
-      <entry key="W1" value="670.1363484616218" />
+      <entry key="MS100" value="0.9203176859354159" />
+      <entry key="MS500" value="1.2629241106513878" />
+      <entry key="S2" value="3.746607278645257" />
+      <entry key="S5" value="7.556873534924126" />
+      <entry key="S10" value="12.42441873412099" />
+      <entry key="S30" value="31.88660387333067" />
+      <entry key="S60" value="59.75720575495979" />
+      <entry key="M2" value="100.92286795341518" />
+      <entry key="M5" value="158.524808778692" />
+      <entry key="M10" value="200.3053629942549" />
+      <entry key="M15" value="229.32890037949088" />
+      <entry key="M30" value="293.132619055532" />
+      <entry key="H1" value="362.50516112512247" />
+      <entry key="H2" value="417.82791042140326" />
+      <entry key="H4" value="453.4572527367138" />
+      <entry key="D1" value="488.3672385369993" />
+      <entry key="W1" value="494.895423681363" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -106,28 +106,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mtabe/PycharmProjects/cnc-neebot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/chewie/PycharmProjects/cnc-neebot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chewie\PycharmProjects\cnc-neebot" />
+      <recent name="C:\Users\chewie\PycharmProjects\cnc-neebot\.venv" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -153,9 +159,6 @@
       <workItem from="1781535786349" duration="3568000" />
       <workItem from="1781541072055" duration="849000" />
       <workItem from="1781574171010" duration="1371000" />
-      <workItem from="1781576254249" duration="36000" />
-      <workItem from="1781791990883" duration="106000" />
-      <workItem from="1781792109637" duration="2851000" />
     </task>
     <servers />
   </component>
@@ -163,6 +166,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1781794782806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1781859836892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

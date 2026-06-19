@@ -1,0 +1,209 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"ALL\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a305f6cb-3729-47bf-99d6-c9801fbae37d\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"MarktinTHB\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/MarktinTHB/cnc-neebot.git\",\r\n    \"accountId\": \"14cc98f6-43e4-4933-b1a2-36df14f1f7c5\"\r\n  }\r\n}]]></component>\r\n  <component name=\"NextEditCompletionFeaturesState\">\r\n    <decayedCancelled>\r\n      <entry key=\"MS100\" value=\"1.0001395349711206\" />\r\n      <entry key=\"MS500\" value=\"1.2842113585344344\" />\r\n      <entry key=\"S2\" value=\"3.764051615897526\" />\r\n      <entry key=\"S5\" value=\"7.571898327892495\" />\r\n      <entry key=\"S10\" value=\"12.436948394462933\" />\r\n      <entry key=\"S30\" value=\"31.897182175256344\" />\r\n      <entry key=\"S60\" value=\"59.76731083840687\" />\r\n      <entry key=\"M2\" value=\"100.93204153879525\" />\r\n      <entry key=\"M5\" value=\"158.52564236625668\" />\r\n      <entry key=\"M10\" value=\"200.23324934046983\" />\r\n      <entry key=\"M15\" value=\"229.15189032574568\" />\r\n      <entry key=\"M30\" value=\"292.7101580911528\" />\r\n      <entry key=\"H1\" value=\"361.85506671327005\" />\r\n      <entry key=\"H2\" value=\"417.0216709260947\" />\r\n      <entry key=\"H4\" value=\"452.5593696278134\" />\r\n      <entry key=\"D1\" value=\"487.3850360472006\" />\r\n      <entry key=\"W1\" value=\"493.8979859377654\" />\r\n    </decayedCancelled>\r\n    <decayedSelected>\r\n      <entry key=\"MS100\" value=\"0.0\" />\r\n      <entry key=\"MS500\" value=\"0.0\" />\r\n      <entry key=\"S2\" value=\"0.0\" />\r\n      <entry key=\"S5\" value=\"1.9548211515404466E-133\" />\r\n      <entry key=\"S10\" value=\"4.421335942382638E-67\" />\r\n      <entry key=\"S30\" value=\"7.618178978500972E-23\" />\r\n      <entry key=\"S60\" value=\"8.72821801887469E-12\" />\r\n      <entry key=\"M2\" value=\"2.95435577053183E-6\" />\r\n      <entry key=\"M5\" value=\"0.006140236757627019\" />\r\n      <entry key=\"M10\" value=\"0.07835966282231607\" />\r\n      <entry key=\"M15\" value=\"0.18311687675151436\" />\r\n      <entry key=\"M30\" value=\"0.4279215778054587\" />\r\n      <entry key=\"H1\" value=\"0.6541571506950452\" />\r\n      <entry key=\"H2\" value=\"0.8087998211517119\" />\r\n      <entry key=\"H4\" value=\"0.8993329868028341\" />\r\n      <entry key=\"D1\" value=\"0.9824717854991029\" />\r\n      <entry key=\"W1\" value=\"0.9974769521490507\" />\r\n    </decayedSelected>\r\n    <decayedShown>\r\n      <entry key=\"MS100\" value=\"0.9203176859354159\" />\r\n      <entry key=\"MS500\" value=\"1.2629241106513878\" />\r\n      <entry key=\"S2\" value=\"3.746607278645257\" />\r\n      <entry key=\"S5\" value=\"7.556873534924126\" />\r\n      <entry key=\"S10\" value=\"12.42441873412099\" />\r\n      <entry key=\"S30\" value=\"31.88660387333067\" />\r\n      <entry key=\"S60\" value=\"59.75720575495979\" />\r\n      <entry key=\"M2\" value=\"100.92286795341518\" />\r\n      <entry key=\"M5\" value=\"158.524808778692\" />\r\n      <entry key=\"M10\" value=\"200.3053629942549\" />\r\n      <entry key=\"M15\" value=\"229.32890037949088\" />\r\n      <entry key=\"M30\" value=\"293.132619055532\" />\r\n      <entry key=\"H1\" value=\"362.50516112512247\" />\r\n      <entry key=\"H2\" value=\"417.82791042140326\" />\r\n      <entry key=\"H4\" value=\"453.4572527367138\" />\r\n      <entry key=\"D1\" value=\"488.3672385369993\" />\r\n      <entry key=\"W1\" value=\"494.895423681363\" />\r\n    </decayedShown>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2,\r\n  &quot;fromUser&quot;: false\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3EjJsSzHbkEXqTjHBozl5EM7gMk\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"Python.main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"RunOnceActivity.typescript.service.memoryLimit.init\": \"true\",\r\n    \"codeWithMe.voiceChat.enabledByDefault\": \"false\",\r\n    \"com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"junie.onboarding.icon.badge.shown\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Mtabe/PycharmProjects/cnc-neebot\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"to.speed.mode.migration.done\": \"true\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a305f6cb-3729-47bf-99d6-c9801fbae37d\" name=\"Changes\" comment=\"\" />\r\n      <created>1780686251227</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1780686251227</updated>\r\n      <workItem from=\"1780686252270\" duration=\"12000\" />\r\n      <workItem from=\"1780686298502\" duration=\"183000\" />\r\n      <workItem from=\"1780686523709\" duration=\"63000\" />\r\n      <workItem from=\"1780715537691\" duration=\"137000\" />\r\n      <workItem from=\"1780715703508\" duration=\"6698000\" />\r\n      <workItem from=\"1780936716349\" duration=\"1543000\" />\r\n      <workItem from=\"1781326062391\" duration=\"363000\" />\r\n      <workItem from=\"1781504596468\" duration=\"882000\" />\r\n      <workItem from=\"1781535786349\" duration=\"3568000\" />\r\n      <workItem from=\"1781541072055\" duration=\"849000\" />\r\n      <workItem from=\"1781574171010\" duration=\"1371000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/cnc_neebot$main.coverage\" NAME=\"main Coverage Results\" MODIFIED=\"1781538696320\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f3bb6707aa01fa19102a54c9dbccb06df6bc53d5)
++++ b/.idea/workspace.xml	(date 1781853306434)
+@@ -4,127 +4,58 @@
+     <option name="autoReloadType" value="ALL" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a305f6cb-3729-47bf-99d6-c9801fbae37d" name="Changes" comment="" />
++    <list default="true" id="cc1a1983-bed3-4f81-8da7-9cfaa15cc5f3" name="Changes" comment="">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+-  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "MarktinTHB"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;pannchum&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/MarktinTHB/cnc-neebot.git",
+-    "accountId": "14cc98f6-43e4-4933-b1a2-36df14f1f7c5"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/MarktinTHB/cnc-neebot.git&quot;,
++    &quot;accountId&quot;: &quot;be7812ac-e077-4f58-9c94-03e085ed2c5f&quot;
+   }
+-}]]></component>
+-  <component name="NextEditCompletionFeaturesState">
+-    <decayedCancelled>
+-      <entry key="MS100" value="1.0001395349711206" />
+-      <entry key="MS500" value="1.2842113585344344" />
+-      <entry key="S2" value="3.764051615897526" />
+-      <entry key="S5" value="7.571898327892495" />
+-      <entry key="S10" value="12.436948394462933" />
+-      <entry key="S30" value="31.897182175256344" />
+-      <entry key="S60" value="59.76731083840687" />
+-      <entry key="M2" value="100.93204153879525" />
+-      <entry key="M5" value="158.52564236625668" />
+-      <entry key="M10" value="200.23324934046983" />
+-      <entry key="M15" value="229.15189032574568" />
+-      <entry key="M30" value="292.7101580911528" />
+-      <entry key="H1" value="361.85506671327005" />
+-      <entry key="H2" value="417.0216709260947" />
+-      <entry key="H4" value="452.5593696278134" />
+-      <entry key="D1" value="487.3850360472006" />
+-      <entry key="W1" value="493.8979859377654" />
+-    </decayedCancelled>
+-    <decayedSelected>
+-      <entry key="MS100" value="0.0" />
+-      <entry key="MS500" value="0.0" />
+-      <entry key="S2" value="0.0" />
+-      <entry key="S5" value="1.9548211515404466E-133" />
+-      <entry key="S10" value="4.421335942382638E-67" />
+-      <entry key="S30" value="7.618178978500972E-23" />
+-      <entry key="S60" value="8.72821801887469E-12" />
+-      <entry key="M2" value="2.95435577053183E-6" />
+-      <entry key="M5" value="0.006140236757627019" />
+-      <entry key="M10" value="0.07835966282231607" />
+-      <entry key="M15" value="0.18311687675151436" />
+-      <entry key="M30" value="0.4279215778054587" />
+-      <entry key="H1" value="0.6541571506950452" />
+-      <entry key="H2" value="0.8087998211517119" />
+-      <entry key="H4" value="0.8993329868028341" />
+-      <entry key="D1" value="0.9824717854991029" />
+-      <entry key="W1" value="0.9974769521490507" />
+-    </decayedSelected>
+-    <decayedShown>
+-      <entry key="MS100" value="0.9203176859354159" />
+-      <entry key="MS500" value="1.2629241106513878" />
+-      <entry key="S2" value="3.746607278645257" />
+-      <entry key="S5" value="7.556873534924126" />
+-      <entry key="S10" value="12.42441873412099" />
+-      <entry key="S30" value="31.88660387333067" />
+-      <entry key="S60" value="59.75720575495979" />
+-      <entry key="M2" value="100.92286795341518" />
+-      <entry key="M5" value="158.524808778692" />
+-      <entry key="M10" value="200.3053629942549" />
+-      <entry key="M15" value="229.32890037949088" />
+-      <entry key="M30" value="293.132619055532" />
+-      <entry key="H1" value="362.50516112512247" />
+-      <entry key="H2" value="417.82791042140326" />
+-      <entry key="H4" value="453.4572527367138" />
+-      <entry key="D1" value="488.3672385369993" />
+-      <entry key="W1" value="494.895423681363" />
+-    </decayedShown>
+-  </component>
++}</component>
+   <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 2,
++  &quot;associatedIndex&quot;: 3,
+   &quot;fromUser&quot;: false
+ }</component>
+-  <component name="ProjectId" id="3EjJsSzHbkEXqTjHBozl5EM7gMk" />
+-  <component name="ProjectLevelVcsManager">
+-    <ConfirmationsSetting value="2" id="Add" />
+-  </component>
++  <component name="ProjectId" id="3FCMtCNhv4I6pVFUzpHgk7N3Q1Y" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "Python.main.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+-    "codeWithMe.voiceChat.enabledByDefault": "false",
+-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+-    "git-widget-placeholder": "main",
+-    "junie.onboarding.icon.badge.shown": "true",
+-    "last_opened_file_path": "C:/Users/Mtabe/PycharmProjects/cnc-neebot",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "to.speed.mode.migration.done": "true",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
++    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
++    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+@@ -134,29 +65,18 @@
+   </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="a305f6cb-3729-47bf-99d6-c9801fbae37d" name="Changes" comment="" />
+-      <created>1780686251227</created>
++      <changelist id="cc1a1983-bed3-4f81-8da7-9cfaa15cc5f3" name="Changes" comment="" />
++      <created>1781574810876</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1780686251227</updated>
+-      <workItem from="1780686252270" duration="12000" />
+-      <workItem from="1780686298502" duration="183000" />
+-      <workItem from="1780686523709" duration="63000" />
+-      <workItem from="1780715537691" duration="137000" />
+-      <workItem from="1780715703508" duration="6698000" />
+-      <workItem from="1780936716349" duration="1543000" />
+-      <workItem from="1781326062391" duration="363000" />
+-      <workItem from="1781504596468" duration="882000" />
+-      <workItem from="1781535786349" duration="3568000" />
+-      <workItem from="1781541072055" duration="849000" />
+-      <workItem from="1781574171010" duration="1371000" />
++      <updated>1781574810876</updated>
++      <workItem from="1781574813685" duration="1886000" />
++      <workItem from="1781595520140" duration="751000" />
++      <workItem from="1781852854394" duration="450000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+-    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1781538696320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-  </component>
+ </project>
+\ No newline at end of file

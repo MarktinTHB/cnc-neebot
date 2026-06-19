@@ -362,14 +362,288 @@ async def setupverification(interaction: discord.Interaction):
         ephemeral=True
     )
 
-# =====================================================================================================================
-# 🤖 TEAM SELECTOR SEQUENCE: CREATES/JOIN A SPECIFIC TEAM IN CHANNEL (teamSelector.seq)
-# =====================================================================================================================
 
-# TBD: Will be done by @marktinthb
+teams = {}
 
 
+class CreateTeamModal(Modal, title="Create a Team"):
 
+    team_name = TextInput(
+        label="Team Name",
+        placeholder="Enter your team name",
+        required=True,
+        max_length=50
+    )
+
+    description = TextInput(
+        label="Description / Requirements",
+        placeholder="What is your team about?",
+        required=True,
+        style=discord.TextStyle.paragraph,
+        max_length=300
+    )
+
+    team_size = TextInput(
+        label="Team Size (4-6 only)",
+        placeholder="Enter number between 4-6",
+        required=True,
+        max_length=1
+    )
+
+    password = TextInput(
+        label="Team Password (optional)",
+        placeholder="Leave blank for public team",
+        required=False,
+        max_length=50
+    )
+
+    async def on_submit(self, interaction: discord.Interaction):
+
+        print(f"[TEAM DEBUG] Creating team: {self.team_name.value}")
+
+        guild = interaction.guild
+        creator = interaction.user
+
+        name = self.team_name.value.strip()
+
+        if name in teams:
+            return await interaction.response.send_message(
+                "❌ A team with this name already exists.",
+                ephemeral=True
+            )
+
+        try:
+            size = int(self.team_size.value)
+            if size < 4 or size > 6:
+                raise ValueError()
+        except:
+            return await interaction.response.send_message(
+                "❌ Team size must be 4-6 only.",
+                ephemeral=True
+            )
+
+        is_private = bool(self.password.value.strip())
+
+        print(f"[TEAM DEBUG] Size={size}, Private={is_private}, Creator={creator}")
+
+        team_role = await guild.create_role(name=f"TEAM - {name}")
+        await creator.add_roles(team_role)
+
+        print(f"[TEAM DEBUG] Role created: {team_role.id}")
+
+        no_access_category = guild.get_channel(1516112928775078073)
+
+        # =========================================================
+        # CHANNEL CREATION (FIXED PERMISSIONS)
+        # =========================================================
+
+        text_channel = await guild.create_text_channel(
+            name=f"team-{name.lower().replace(' ', '-')}",
+            category=no_access_category,
+            overwrites={
+                guild.default_role: discord.PermissionOverwrite(view_channel=False)
+            }
+        )
+
+        voice_channel = await guild.create_voice_channel(
+            name=f"🔊 {name}",
+            category=no_access_category,
+            overwrites={
+                guild.default_role: discord.PermissionOverwrite(view_channel=False)
+            }
+        )
+
+        print(f"[TEAM DEBUG] Channels created: {text_channel.id}, {voice_channel.id}")
+
+        # GIVE ROLE ACCESS TO CHANNELS
+        await text_channel.set_permissions(
+            team_role,
+            view_channel=True,
+            send_messages=True
+        )
+
+        await voice_channel.set_permissions(
+            team_role,
+            view_channel=True,
+            connect=True,
+            speak=True
+        )
+
+        print(f"[TEAM DEBUG] Permissions applied for role {team_role.id}")
+
+        teams[name] = {
+            "name": name,
+            "description": self.description.value,
+            "size": size,
+            "password": self.password.value if is_private else None,
+            "creator": creator.id,
+            "role_id": team_role.id,
+            "text_id": text_channel.id,
+            "voice_id": voice_channel.id,
+            "members": [creator.id],
+            "private": is_private
+        }
+
+        print(f"[TEAM DEBUG] Team stored: {name}")
+
+        find_channel = guild.get_channel(1511022035759792263)
+
+        embed = discord.Embed(
+            title=f"🫂 {name}",
+            description=self.description.value,
+            color=discord.Color.blue() if is_private else discord.Color.green()
+        )
+
+        embed.add_field(name="Team Size", value=str(size), inline=True)
+        embed.add_field(name="Slots Left", value=str(size - 1), inline=True)
+        embed.add_field(name="Type", value="Private 🔵" if is_private else "Public 🟢", inline=True)
+
+        view = JoinTeamButtonView(name)
+
+        await find_channel.send(embed=embed, view=view)
+
+        print(f"[TEAM DEBUG] Posted team '{name}' in find-a-team channel")
+
+        await interaction.response.send_message(
+            f"✅ Team **{name}** created successfully!",
+            ephemeral=True
+        )
+
+
+class JoinTeamButtonView(View):
+
+    def __init__(self, team_name: str):
+        super().__init__(timeout=None)
+        self.team_name = team_name
+
+    @discord.ui.button(label="Join Team", style=discord.ButtonStyle.success)
+    async def join(self, interaction: discord.Interaction, button: Button):
+
+        team = teams.get(self.team_name)
+
+        if not team:
+            return await interaction.response.send_message(
+                "❌ Team no longer exists.",
+                ephemeral=True
+            )
+
+        print(f"[TEAM DEBUG] {interaction.user} attempting to join {team['name']}")
+
+        if len(team["members"]) >= team["size"]:
+            return await interaction.response.send_message(
+                "❌ Team is full.",
+                ephemeral=True
+            )
+
+        if team["private"]:
+            await interaction.response.send_modal(JoinTeamPasswordModal(self.team_name))
+            return
+
+        await self.add_member(interaction, team)
+
+    async def add_member(self, interaction: discord.Interaction, team: dict):
+
+        guild = interaction.guild
+        member = interaction.user
+
+        role = guild.get_role(team["role_id"])
+
+        await member.add_roles(role)
+
+        team["members"].append(member.id)
+
+        print(f"[TEAM DEBUG] {member} joined {team['name']}")
+
+        remaining = team["size"] - len(team["members"])
+
+        embed = interaction.message.embeds[0]
+        embed.set_field_at(1, name="Slots Left", value=str(remaining), inline=True)
+
+        await interaction.message.edit(embed=embed)
+
+        await interaction.response.send_message(
+            f"✅ You joined **{team['name']}**!",
+            ephemeral=True
+        )
+
+
+class JoinTeamPasswordModal(Modal, title="Enter Team Password"):
+
+    def __init__(self, team_name: str):
+        super().__init__()
+        self.team_name = team_name
+
+    password = TextInput(label="Password", required=True)
+
+    async def on_submit(self, interaction: discord.Interaction):
+
+        team = teams.get(self.team_name)
+
+        print(f"[TEAM DEBUG] Password attempt for {self.team_name}")
+
+        if not team:
+            return await interaction.response.send_message(
+                "❌ Team no longer exists.",
+                ephemeral=True
+            )
+
+        if self.password.value != team["password"]:
+            print("[TEAM DEBUG] Wrong password")
+            return await interaction.response.send_message(
+                "❌ Incorrect password.",
+                ephemeral=True
+            )
+
+        print("[TEAM DEBUG] Password correct")
+
+        view = JoinTeamButtonView(self.team_name)
+        await view.add_member(interaction, team)
+
+
+class TeamSelectorView(View):
+
+    def __init__(self):
+        super().__init__(timeout=None)
+
+    @discord.ui.button(label="Create Team", style=discord.ButtonStyle.primary)
+    async def create(self, interaction: discord.Interaction, button: Button):
+        await interaction.response.send_modal(CreateTeamModal())
+
+    @discord.ui.button(label="Join Team", style=discord.ButtonStyle.success)
+    async def join(self, interaction: discord.Interaction, button: Button):
+
+        if not teams:
+            return await interaction.response.send_message(
+                "❌ No teams available yet.",
+                ephemeral=True
+            )
+
+        embed = discord.Embed(
+            title="🫂 Available Teams",
+            description="\n".join([f"**{t}**" for t in teams.keys()]),
+            color=discord.Color.blurple()
+        )
+
+        await interaction.response.send_message(embed=embed, ephemeral=True)
+
+
+@bot.tree.command(
+    name="team",
+    description="Create or join a team",
+    guild=discord.Object(id=GUILD_ID)
+)
+async def team(interaction: discord.Interaction):
+
+    print(f"[TEAM DEBUG] /team used by {interaction.user}")
+
+    await interaction.response.send_message(
+        "🫂 Team Selector Menu",
+        view=TeamSelectorView(),
+        ephemeral=True
+    )
+
+
+print("[NEEBOT CNC DEBUGGER] teamSelector.seq has been initialized!")
 # =====================================================================================================================
 # 🎩 ADMIN COMMAND: OP COMMAND (/op)
 # =====================================================================================================================
