@@ -34,7 +34,12 @@ class NeeBot(commands.Bot):
         # userPermissions.py has no slash commands of its own (just shared
         # helpers imported by the other cogs), so it isn't loaded as an
         # extension here — only cogs that register commands need load_extension.
-        for extension in ("cogs.adminCommands", "cogs.userVerification", "cogs.teamSelector"):
+        for extension in (
+                "cogs.adminCommands",
+                "cogs.userVerification",
+                "cogs.teamSelector",
+                "cogs.deployMentor"
+        ):
             await self.load_extension(extension)
 
         print("[NEEBOT CNC DEBUGGER] botCommands.seq has been initialized!")

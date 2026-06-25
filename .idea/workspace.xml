@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a305f6cb-3729-47bf-99d6-c9801fbae37d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cogs/adminCommands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogs/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogs/teamSelector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogs/userPermissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cogs/userVerification.py" afterDir="false" />
+    <list default="true" id="a305f6cb-3729-47bf-99d6-c9801fbae37d" name="Changes" comment="Fixed the version tag.">
+      <change afterPath="$PROJECT_DIR$/cogs/deployMentor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cogs/teamSelector.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/teamSelector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,61 +41,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000755048188" />
-      <entry key="MS500" value="1.0478996407374321" />
-      <entry key="S2" value="2.011554269561671" />
-      <entry key="S5" value="3.2152639865062835" />
-      <entry key="S10" value="4.035235076310075" />
-      <entry key="S30" value="5.968938842407054" />
-      <entry key="S60" value="8.228200300820095" />
-      <entry key="M2" value="11.908599298198173" />
-      <entry key="M5" value="25.788736256947125" />
-      <entry key="M10" value="60.152785007702896" />
-      <entry key="M15" value="101.09617049866081" />
-      <entry key="M30" value="212.11001412470014" />
-      <entry key="H1" value="349.97655478631776" />
-      <entry key="H2" value="471.3655814276512" />
-      <entry key="H4" value="554.8778926120712" />
-      <entry key="D1" value="640.7104742080193" />
-      <entry key="W1" value="657.1969688844821" />
+      <entry key="MS100" value="1.5321850912266801" />
+      <entry key="MS500" value="1.88148015790717" />
+      <entry key="S2" value="1.9689539448887405" />
+      <entry key="S5" value="1.9874639603843245" />
+      <entry key="S10" value="1.9937122120535322" />
+      <entry key="S30" value="1.997899662354776" />
+      <entry key="S60" value="1.9989493391420399" />
+      <entry key="M2" value="2.0014182781344885" />
+      <entry key="M5" value="3.1152628356804493" />
+      <entry key="M10" value="14.149587186948189" />
+      <entry key="M15" value="35.06514534808998" />
+      <entry key="M30" value="121.24054517679389" />
+      <entry key="H1" value="271.74030812569436" />
+      <entry key="H2" value="433.3420784887102" />
+      <entry key="H4" value="557.2735562089118" />
+      <entry key="D1" value="694.0499745206506" />
+      <entry key="W1" value="721.3306869797083" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.455092273437544E-129" />
-      <entry key="MS500" value="2.0309158550099026E-26" />
-      <entry key="S2" value="3.7750523847163777E-7" />
-      <entry key="S5" value="0.0026963060923381878" />
-      <entry key="S10" value="0.0519259674521037" />
-      <entry key="S30" value="0.37339687131634103" />
-      <entry key="S60" value="0.6287691980827632" />
-      <entry key="M2" value="0.9155931193870084" />
-      <entry key="M5" value="1.3537502615835637" />
-      <entry key="M10" value="1.6249383555017467" />
-      <entry key="M15" value="1.7577944051517438" />
-      <entry key="M30" value="2.0169590212276516" />
-      <entry key="H1" value="2.3253218450330286" />
-      <entry key="H2" value="2.5940683167177845" />
-      <entry key="H4" value="2.775762832923404" />
-      <entry key="D1" value="2.959240026822677" />
-      <entry key="W1" value="2.994087889815417" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="4.394166310677694E-142" />
+      <entry key="S10" value="2.0962266853514625E-71" />
+      <entry key="S30" value="2.7596577472286377E-24" />
+      <entry key="S60" value="1.7093599852266945E-12" />
+      <entry key="M2" value="1.50964091476794E-6" />
+      <entry key="M5" value="0.006582744645744634" />
+      <entry key="M10" value="0.1133107508732459" />
+      <entry key="M15" value="0.29779968187580985" />
+      <entry key="M30" value="0.8301855129765647" />
+      <entry key="H1" value="1.4918395258806092" />
+      <entry key="H2" value="2.077786538857259" />
+      <entry key="H4" value="2.484231794454736" />
+      <entry key="D1" value="2.9050157135636607" />
+      <entry key="W1" value="2.98618808302156" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.852634947819976" />
-      <entry key="MS500" value="1.0140608355176306" />
-      <entry key="S2" value="1.9930878489607795" />
-      <entry key="S5" value="3.2046039069838272" />
-      <entry key="S10" value="4.060579352760838" />
-      <entry key="S30" value="6.283458128536687" />
-      <entry key="S60" value="8.806173238497099" />
-      <entry key="M2" value="12.788846092698702" />
-      <entry key="M5" value="27.122634274331375" />
-      <entry key="M10" value="61.76437973801956" />
-      <entry key="M15" value="102.84299999560574" />
-      <entry key="M30" value="214.11871475685473" />
-      <entry key="H1" value="352.29585362173987" />
-      <entry key="H2" value="473.95574417101665" />
-      <entry key="H4" value="557.6513837835215" />
-      <entry key="D1" value="643.6692797956856" />
-      <entry key="W1" value="660.1909931626943" />
+      <entry key="MS100" value="1.1720025202188142" />
+      <entry key="MS500" value="1.7594173927658514" />
+      <entry key="S2" value="1.9348973080984226" />
+      <entry key="S5" value="1.973533663112001" />
+      <entry key="S10" value="1.9866948307435197" />
+      <entry key="S30" value="1.995548837855075" />
+      <entry key="S60" value="1.9977724590213364" />
+      <entry key="M2" value="2.000830512446505" />
+      <entry key="M5" value="3.121438280838398" />
+      <entry key="M10" value="14.261558867017307" />
+      <entry key="M15" value="35.36062528332988" />
+      <entry key="M30" value="122.06691269459783" />
+      <entry key="H1" value="273.22799688480677" />
+      <entry key="H2" value="435.4165685921619" />
+      <entry key="H4" value="559.75566379099" />
+      <entry key="D1" value="696.9545475064491" />
+      <entry key="W1" value="724.3168092706087" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,28 +111,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/chewie/PycharmProjects/cnc-neebot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chewie/PycharmProjects/cnc-neebot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chewie\PycharmProjects\cnc-neebot" />
@@ -203,14 +201,41 @@
       <workItem from="1781574171010" duration="1371000" />
       <workItem from="1781868954542" duration="657000" />
       <workItem from="1781869674725" duration="1172000" />
-      <workItem from="1781870880724" duration="2919000" />
+      <workItem from="1781870880724" duration="4368000" />
+      <workItem from="1782190894301" duration="623000" />
+      <workItem from="1782221989768" duration="2032000" />
+      <workItem from="1782226077650" duration="2166000" />
+      <workItem from="1782288413674" duration="6153000" />
+      <workItem from="1782359204726" duration="1279000" />
     </task>
+    <task id="LOCAL-00001" summary="Cleaned the sequences in different python files.&#10;Cleaned the embeds and UI of the team selector.&#10;Fixed a bug where you can still join teams if full.">
+      <option name="closed" value="true" />
+      <created>1781874023970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781874023970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed the version tag.">
+      <option name="closed" value="true" />
+      <created>1781874071203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781874071203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaned the sequences in different python files.&#10;Cleaned the embeds and UI of the team selector.&#10;Fixed a bug where you can still join teams if full." />
+    <MESSAGE value="Fixed the version tag." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the version tag." />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1781873555161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cnc_neebot$main.coverage" NAME="main Coverage Results" MODIFIED="1782316594184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

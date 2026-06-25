@@ -21,6 +21,8 @@ VERIFICATION_CHANNEL_ID = int(os.getenv("VERIFICATION_CHANNEL_ID"))
 VERIFICATION_REVIEW_CHANNEL_ID = int(os.getenv("VERIFICATION_REVIEW_CHANNEL_ID"))
 UNVERIFIED_ROLE_ID = int(os.getenv("UNVERIFIED_ROLE_ID"))
 VERIFIED_ROLE_ID = int(os.getenv("VERIFIED_ROLE_ID"))
+MENTOR_ROLE_ID = int(os.getenv("MENTOR_ROLE_ID"))
+TEAM_CATEGORY_ID = int(os.getenv("TEAM_CATEGORY_ID"))
 
 # Used by teamSelector.py — these were hardcoded numeric IDs in the original
 # script. Pulled into .env here so they can be changed without touching code.
@@ -28,7 +30,7 @@ VERIFIED_ROLE_ID = int(os.getenv("VERIFIED_ROLE_ID"))
 TEAM_NO_ACCESS_CATEGORY_ID = int(os.getenv("TEAM_NO_ACCESS_CATEGORY_ID", "1516112928775078073"))
 FIND_A_TEAM_CHANNEL_ID = int(os.getenv("FIND_A_TEAM_CHANNEL_ID", "1511022035759792263"))
 
-VERSION = "1.2.4"
+VERSION = "1.4.3"
 
 if not DISCORD_TOKEN:
     raise ValueError(

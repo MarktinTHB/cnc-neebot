@@ -324,7 +324,173 @@ class TeamSelector(commands.Cog):
             ephemeral=True
         )
 
+    @app_commands.command(
+        name="syncteam",
+        description="Force create a team and automatically assign members."
+    )
+    @app_commands.guilds(discord.Object(id=GUILD_ID))
+    async def sync_team(
+            self,
+            interaction: discord.Interaction,
+            team_name: str,
+            member1: discord.Member,
+            member2: discord.Member,
+            member3: discord.Member | None = None,
+            member4: discord.Member | None = None,
+            member5: discord.Member | None = None,
+            member6: discord.Member | None = None
+    ):
+
+        organizer_role = interaction.guild.get_role(
+            ORGANIZER_ROLE_ID
+        )
+
+        if (
+                organizer_role not in interaction.user.roles
+                and not interaction.user.guild_permissions.administrator
+        ):
+            return await interaction.response.send_message(
+                "❌ Only Organizers may use this command!",
+                ephemeral=True
+            )
+
+        guild = interaction.guild
+
+        if team_name in teams:
+            return await interaction.response.send_message(
+                f"❌ Team **{team_name}** already exists!",
+                ephemeral=True
+            )
+
+        await interaction.response.defer(ephemeral=True)
+
+        print(f"[TEAM DEBUG] Syncing team: {team_name}")
+
+        # =========================================================
+        # CREATE ROLE
+        # =========================================================
+
+        team_role = await guild.create_role(
+            name=f"👥｜{team_name}"
+        )
+
+        no_access_category = guild.get_channel(
+            TEAM_NO_ACCESS_CATEGORY_ID
+        )
+
+        # =========================================================
+        # CREATE CHANNELS
+        # =========================================================
+
+        text_channel = await guild.create_text_channel(
+            name=f"🤝｜team-{team_name.lower().replace(' ', '-')}",
+            category=no_access_category,
+            overwrites={
+                guild.default_role: discord.PermissionOverwrite(
+                    view_channel=False
+                )
+            }
+        )
+
+        voice_channel = await guild.create_voice_channel(
+            name=f"🔊・{team_name} Lounge",
+            category=no_access_category,
+            overwrites={
+                guild.default_role: discord.PermissionOverwrite(
+                    view_channel=False
+                )
+            }
+        )
+
+        await text_channel.set_permissions(
+            team_role,
+            view_channel=True,
+            send_messages=True
+        )
+
+        await voice_channel.set_permissions(
+            team_role,
+            view_channel=True,
+            connect=True,
+            speak=True
+        )
+
+        # =========================================================
+        # MEMBERS
+        # =========================================================
+
+        members = [
+            member1,
+            member2,
+            member3,
+            member4,
+            member5,
+            member6
+        ]
+
+        members = [m for m in members if m]
+
+        added_members = []
+
+        for member in members:
+
+            # Remove existing team role if any
+            for role in member.roles:
+                if role.name.startswith("👥｜"):
+                    try:
+                        await member.remove_roles(role)
+                    except Exception:
+                        pass
+
+            await member.add_roles(team_role)
+
+            added_members.append(member.id)
+
+            print(
+                f"[TEAM DEBUG] Added {member} to {team_name}"
+            )
+
+        # =========================================================
+        # STORE TEAM
+        # =========================================================
+
+        teams[team_name] = {
+            "name": team_name,
+            "description": "Created via /syncteam",
+            "size": max(len(added_members), 4),
+            "password": None,
+            "creator": interaction.user.id,
+            "role_id": team_role.id,
+            "text_id": text_channel.id,
+            "voice_id": voice_channel.id,
+            "members": added_members,
+            "private": False
+        }
+
+        # =========================================================
+        # WELCOME MESSAGE
+        # =========================================================
+
+        mentions = [
+            f"<@{member_id}>"
+            for member_id in added_members
+        ]
+
+        await text_channel.send(
+            f"👋 Welcome to **{team_name}**!\n\n"
+            f"Assigned Members:\n"
+            f"{chr(10).join(mentions)}"
+        )
+
+        await interaction.followup.send(
+            f"✅ Team **{team_name}** created successfully!\n"
+            f"👥 Added **{len(added_members)}** member(s).\n"
+            f"💬 {text_channel.mention}\n"
+            f"🔊 {voice_channel.mention}",
+            ephemeral=True
+        )
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(TeamSelector(bot))
+    print("[NEEBOT CNC DEBUGGER] syncTeamSelector.seq has been initialized!")
     print("[NEEBOT CNC DEBUGGER] teamSelector.seq has been initialized!")
